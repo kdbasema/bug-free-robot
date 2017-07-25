@@ -18,7 +18,7 @@ testdata  = [
     (11, 0, 0),
     (0, 0, 0),
 ]
-@pytest.mark.parametrize("a,b,expected", testdata)
+@pytest.mark.parameterize("a,b,expected", testdata)
 def test_mult(a, b, expected):
     assert bug_free_robot.mult(a, b) == expected
     assert bug_free_robot.mult(b, a) == expected
