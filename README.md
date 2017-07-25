@@ -1,4 +1,7 @@
 # bug-free-robot
 
 ### Install instructions
-To install 'pip install -e' 
+To install 'inplace' please run:
+'''
+To install 'pip install -e'
+'''
