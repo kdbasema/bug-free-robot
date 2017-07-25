@@ -29,7 +29,7 @@ def test_div():
     assert bfr.math.div(9, 3) == 3
 
 
-def test_mult():
+def test_subtract():
     assert bfr.math.subtract(5, 2) == 3
     assert bfr.math.subtract(3, 8) == -5
    
