@@ -20,8 +20,8 @@ testdata  = [
 ]
 @pytest.mark.parametrize("a,b,expected", testdata)
 def test_mult(a, b, expected):
-    assert fcm.math.mult(a, b) == expected
-    assert fcm.math.mult(b, a) == expected
+    assert bug_free_robot.math.mult(a, b) == expected
+    assert bug_free_robot.math.mult(b, a) == expected
 
 
 def test_div():
