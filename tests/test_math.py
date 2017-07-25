@@ -21,11 +21,14 @@ def test_div():
     assert bug_free_robot.div(9, 3) == 3
 
 
-
 def test_mult():
     assert bug_free_robot.subtract(5, 2) == 3
     assert bug_free_robot.subtract(3, 8) == -5
+   
 
+def test_power():
+    assert bug_free_robot.power(2, 3) == 8
+    assert bug_free_robot.power(3, 3) == 27
 
 
 def test_degtorad():
@@ -36,4 +39,3 @@ def test_degtorad():
 def test_radtodeg():
     assert bug_free_robot.radtodeg(3.14159) == 180
     assert bug_free_robot.radtodeg(3.14159 * 0.5) == 90
-
